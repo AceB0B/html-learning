@@ -87,6 +87,11 @@ section{
     min-height: 100vh;
     background: url("https://images.pexels.com/photos/2740954/pexels-photo-2740954.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load") no-repeat center center / cover;
     transition: 0.5s;
-    
+    filter: brightness(80%);
+}
 
+
+#check:checked ~ section{
+    filter: brightness(20%);
+    transition: 0.5s;
 }
